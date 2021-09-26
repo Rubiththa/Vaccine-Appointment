@@ -46,4 +46,3 @@ public class DetailsActivity extends AppCompatActivity {
 
     }
 }
-//apple
