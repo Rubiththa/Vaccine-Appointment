@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CentralProvinceOption">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="234dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="84dp"
+        android:text="Central Province"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/gam"
+        android:layout_width="322dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="60dp"
+        android:text="Gampola Zahira College"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/girl"
+        android:layout_width="322dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="12dp"
+        android:text="Girl's High School, Kandy"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="@+id/gam"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/gam"
+        app:layout_constraintTop_toBottomOf="@+id/gam" />
+
+    <Button
+        android:id="@+id/harare"
+        android:layout_width="322dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="12dp"
+        android:text="Herare Central Hospital"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="@+id/girl"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/girl"
+        app:layout_constraintTop_toBottomOf="@+id/girl" />
+
+    <Button
+        android:id="@+id/mpilo"
+        android:layout_width="322dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="12dp"
+        android:text="Mpilo Central Hospital"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="@+id/harare"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/harare"
+        app:layout_constraintTop_toBottomOf="@+id/harare" />
+
+    <Button
+        android:id="@+id/zahira"
+        android:layout_width="322dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="12dp"
+        android:text="Zahira College Matale"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="@+id/mpilo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/mpilo"
+        app:layout_constraintTop_toBottomOf="@+id/mpilo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/np"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="310dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="28dp"
+        android:text="Province"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cp"
+        android:layout_width="319dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="28dp"
+        android:text="Central Province"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/ep"
+        android:layout_width="319dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:text="Eastern Province"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cp" />
+
+    <Button
+        android:id="@+id/nop"
+        android:layout_width="319dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:text="Northern Province"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ep" />
+
+    <Button
+        android:id="@+id/ncp"
+        android:layout_width="319dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:text="North-Central Province"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nop" />
+
+    <Button
+        android:id="@+id/nwp"
+        android:layout_width="319dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:text="North-Western Province"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ncp" />
+
+    <Button
+        android:id="@+id/sbp"
+        android:layout_width="319dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:text="Sabaragamuwa Province"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nwp" />
+
+    <Button
+        android:id="@+id/sp"
+        android:layout_width="319dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:text="Southern Province"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbp" />
+
+    <Button
+        android:id="@+id/uvp"
+        android:layout_width="319dp"
+        android:layout_height="35dp"
+        android:text="Uva Province"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp" />
+
+    <Button
+        android:id="@+id/wp"
+        android:layout_width="319dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:text="Western Province"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uvp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
